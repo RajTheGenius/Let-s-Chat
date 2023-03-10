@@ -1,0 +1,112 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(#2bff95 0%, #2bfff4 100%);
+}
+
+.header
+{
+	color: white;font-family: 'Times';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+	background-image: linear-gradient(#ffaa2b 0%, #ff2b2b 100%);
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+	background-image: linear-gradient(#fc0330 0%, #800000 100%);
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+#AddRoom{
+	background-image: linear-gradient(#75ff3a 0%, #2dff08 100%);
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+.pg1
+{
+	font-family:'Times New Roman';
+}_
+#firebase_message_id{
+	background-image: linear-gradient(#03fcdf 0%, #0098d0);
+}
+#send{
+	background-image: linear-gradient(#75ff3a 0%, #4efd2f 100%);
+
+}
